@@ -1,0 +1,31 @@
+.achive_top h2{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.achive_top p{
+    text-align: center;
+    line-height: 5px;
+    color: white;
+}
+
+.achive_bot h6{
+    color: white;
+}
+
+.achive_bot{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.achive_bot h2{
+    text-align: center;
+    color: white;
+}
+
+hr{
+    background-color: white;
+}

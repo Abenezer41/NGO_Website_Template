@@ -1,0 +1,32 @@
+.meet_container{
+    padding-top: 20vh;
+    background-color: #EDF1F5;
+}
+
+.meet_container h1{
+    text-align: center;
+}
+
+.meet_container p{
+    text-align: center;
+}
+
+.staff{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom_staff{
+    background-color: rgb(61, 204, 61);
+}
+
+.bottom_staff h6{
+    color: white;
+    text-align: center;
+}
+
+.bottom_staff p{
+    color: white;
+    margin-top: 0;
+}

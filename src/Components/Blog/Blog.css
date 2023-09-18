@@ -1,0 +1,77 @@
+.blog_container{
+    padding-top: 50px;
+}
+.blog_top h2,p{
+    text-align: center;
+}
+
+
+.blog_bottom{
+    display: flex;
+    margin: 5vh 20vh;
+    gap: 30px;
+}
+
+.blog_left{
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgb(211, 210, 210);
+}
+.blog_center{
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgb(211, 210, 210);
+}
+.blog_right{
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgb(211, 210, 210);
+}
+
+.blog_bottom span{
+    text-align: left;
+    font-size: 14px;
+    color: green;
+}
+
+.blog_bottom h4{
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.blog_bottom p{
+    font-family:'Poppins', sans-serif ;
+    text-align: justify;
+}
+.blog_imgs1{
+    background-image: url('https://www.yudaah.com/demo/ngo-responsive-website-template-free-download/assets/images/events/image_01.jpg');
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog_imgs2{
+    background-image: url('https://www.yudaah.com/demo/ngo-responsive-website-template-free-download/assets/images/events/image_02.jpg');
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog_imgs3{
+    background-image: url('https://www.yudaah.com/demo/ngo-responsive-website-template-free-download/assets/images/events/image_03.jpg');
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .blog_left img{
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+} */
+
+.blog_bottom img{
+    /* width: 300px; */
+    /* object-fit: contain; */
+}

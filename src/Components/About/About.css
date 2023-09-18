@@ -1,0 +1,129 @@
+.about_container{
+    display: flex;
+    padding-top: 15vh;
+    justify-content: space-evenly;
+    background-color: #EDF1F5;
+}
+
+.about_left{
+    width: 40%;
+    /* margin: 20px; */
+}
+
+.about_left h1{
+    font-weight: bold;
+}
+
+.about_left p{
+    font-size: 15px;
+}
+
+
+.about_right{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    gap: 30px;
+}
+
+.g1{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgb(209, 205, 205);
+    
+}
+
+.g1 i{
+    margin-top: 25%;
+    color: green;
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.g1 h3{
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+.g2{
+    height: 200px;
+    width: 250px;
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgb(209, 205, 205);
+    background-color: rgb(255, 255, 255);
+}
+
+.g2 i{
+    margin-top: 25%;
+    color: tomato;
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.g2 h3{
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+.g3{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgb(209, 205, 205);
+}
+
+.g3 i{
+    margin-top: 25%;
+    color: rgb(222, 236, 24);
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.g3 h3{
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+.g4{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgb(209, 205, 205);
+}
+
+.g4 i{
+    margin-top: 25%;
+    color: rgb(1, 118, 185);
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.g4 h3{
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
